@@ -1,0 +1,15 @@
+{
+  "default": {
+    "env": 1,
+    "git": "git@gitlab.shinemo.com:Ub-Web/xme-projects.git",
+    "gitBranchPrefix": "origin/",
+    "sourcePath": "/usr/local/localgit/crm",
+    "targetPathPrefix": "/data/webapps/cms.jituancaiyun.net/xme/",
+    "fileName": "/usr/local/localgit/crm/xme-statics/dist",
+    "remoteUser": "root",
+    "preHost": "10.0.10.101:22",
+    "onlineHost": "10.0.10.101:22",
+    "urlPrefix": "http://cms.jituancaiyun.net/xme/",
+    "urlSuffix": "dist/index.html"
+  }
+}

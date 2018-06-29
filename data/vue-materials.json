@@ -1,0 +1,82 @@
+{
+  "name": "vue-materials",
+  "type": "vue",
+  "blocks": [
+    {
+      "name": "basic-title",
+      "title": "极简标题",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/basic-title-block",
+        "version": "1.0.0",
+        "sourceCodeDirectory": "src/",
+        "registry": "http://10.0.10.59:7001"
+      },
+      "dependencies": {
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://pa52i4ckx.bkt.clouddn.com/Title.png",
+      "categories": [
+        "展示"
+      ],
+      "description": "极简标题",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
+    },
+    {
+      "name": "product-card-list",
+      "title": "产品卡片列表",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/product-card-list-block",
+        "version": "1.0.0",
+        "sourceCodeDirectory": "src/",
+        "registry": "http://10.0.10.59:7001"
+      },
+      "dependencies": {
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://pa52i4ckx.bkt.clouddn.com/ProductCardList.png",
+      "categories": [
+        "展示"
+      ],
+      "description": "产品卡片列表",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "mobile-basic-layout",
+      "title": "移动版布局",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/mobile-basic-layout",
+        "version": "1.0.0",
+        "sourceCodeDirectory": "src/",
+        "registry": "http://registry.npmjs.com"
+      },
+      "dependencies": {
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://pa52i4ckx.bkt.clouddn.com/MobileBasicLayout.png",
+      "categories": [],
+      "description": "常规布局，宽度铺满，高度最小100%，可设置边距及背景色",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
+    }
+  ],
+  "templates": [
+    {
+      "name": "mobile-app",
+      "title": "移动版模板（运营推荐）",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/mobile-app-template",
+        "version": "1.0.0",
+        "registry": "http://10.0.10.59:7001"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1SqrjontYBeNjy1XdXXXXyVXa-2842-1596.png",
+      "categories": [],
+      "description": "移动版模板（运营推荐）",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
+    }
+  ]
+}
