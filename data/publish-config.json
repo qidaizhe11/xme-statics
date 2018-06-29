@@ -1,7 +1,7 @@
 {
   "default": {
     "env": 1,
-    "git": "git@gitlab.shinemo.com:Ub-Web/xme-projects.git",
+    "git": "git@gitlab.shinemo.com:Ub-Web/xme-statics.git",
     "gitBranchPrefix": "origin/",
     "sourcePath": "/usr/local/localgit/crm",
     "targetPathPrefix": "/data/webapps/cms.jituancaiyun.net/xme/",
