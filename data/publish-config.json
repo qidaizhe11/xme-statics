@@ -1,5 +1,9 @@
 {
   "default": {
+    "xme": {
+      "name": "默认（彩云）",
+      "git": "http://liupanfeng:liupanfeng@gitlab.shinemo.com/Ub-Web/xme-statics.git",
+    },
     "env": 1,
     "git": "git@gitlab.shinemo.com:Ub-Web/xme-statics.git",
     "gitBranchPrefix": "origin/",
