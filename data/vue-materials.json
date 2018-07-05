@@ -41,6 +41,47 @@
       ],
       "description": "产品卡片列表",
       "repository": "http://gitlab.shinemo.com/xme/xme"
+    },
+    {
+      "name": "card-list",
+      "title": "卡片列表",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/card-list-block",
+        "version": "1.0.0",
+        "sourceCodeDirectory": "src/",
+        "registry": "http://10.0.10.59:7001"
+      },
+      "dependencies": {
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://pa52i4ckx.bkt.clouddn.com/CardList.png",
+      "categories": [
+        "展示"
+      ],
+      "description": "卡片列表",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
+    },
+    {
+      "name": "image-swipe",
+      "title": "图片轮播",
+      "source": {
+        "type": "npm",
+        "npm": "@xme-vue/image-swipe-block",
+        "version": "1.0.0",
+        "sourceCodeDirectory": "src/",
+        "registry": "http://10.0.10.59:7001"
+      },
+      "dependencies": {
+        "vue": "^2.5.16",
+        "vant": "^1.1.11"
+      },
+      "screenshot": "http://pa52i4ckx.bkt.clouddn.com/ImageSwipe.png",
+      "categories": [
+        "展示"
+      ],
+      "description": "图片轮播",
+      "repository": "http://gitlab.shinemo.com/xme/xme"
     }
   ],
   "layouts": [
